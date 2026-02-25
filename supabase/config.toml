@@ -1,0 +1,16 @@
+project_id = "redkybmcrdwyhjsfwdja"
+
+[functions.delete-user]
+verify_jwt = false
+
+[functions.send-welcome-email]
+verify_jwt = false
+
+[functions.send-auth-email]
+verify_jwt = false
+
+[functions.translate-text]
+verify_jwt = false
+
+[functions.send-book-status-email]
+verify_jwt = false
