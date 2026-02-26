@@ -1,4 +1,3 @@
-Hello, this is Hemanth HM, the head of our project team.
 This is our project files, which is done using React for frontend and typescript for backend,
 to know how our website works, go to our website which is live on the domain https://Hashebooks.online/
 
