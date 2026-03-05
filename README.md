@@ -4,10 +4,12 @@ By utilizing unique hashing algorithms, the project ensures data integrity and p
 HashEbooks addresses these challenges by providing a robust framework to:Verify Integrity: Use cryptographic hashes to ensure that eBook files are not corrupted.
 Deduplicate Libraries: Identify identical content even if filenames differ, saving storage space.
 Metadata Management: Catalog titles, authors, and publication dates in a structured format.Search Optimization: Enable fast retrieval of documents through an indexed database.
-## Getting Started### PrerequisitesPython 3.9+Pip (Python package manager)Git### InstallationClone the Repository:Bashgit clone https://github.com/HemanthMadhusudhan/HashEbooks.git
+## Getting Started
+### PrerequisitesPython 3.9+Pip (Python package manager)Git### InstallationClone the Repository:Bashgit clone https://github.com/HemanthMadhusudhan/HashEbooks.git
 cd HashEbooks
 Set Up a Virtual Environment (Recommended):Bashpython -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  
+# On Windows: venv\Scripts\activate
 Install Dependencies:Bashpip install -r requirements.txt
 ## UsageTo begin indexing your library, run the main script and point it to your books directory:Bashpython manage.py --scan /path/to/your/ebooks
 ### Core CommandsCommandDescription--scanScans a directory for new eBook files.
