@@ -1,4 +1,5 @@
-HashEbooksHashEbooks is a digital library management system designed to streamline the way users organize, verify, and interact with their electronic book collections. 
+HashEbooks
+HashEbooks is a digital library management system designed to streamline the way users organize, verify, and interact with their electronic book collections. 
 By utilizing unique hashing algorithms, the project ensures data integrity and prevents duplication within large personal or shared libraries.
 ## Project DescriptionManaging a growing collection of eBooks often leads to duplicate files, broken metadata, and disorganized directories. 
 HashEbooks addresses these challenges by providing a robust framework to:Verify Integrity: Use cryptographic hashes to ensure that eBook files are not corrupted.
